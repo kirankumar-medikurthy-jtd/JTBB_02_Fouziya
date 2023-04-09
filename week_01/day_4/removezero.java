@@ -2,31 +2,29 @@
 //Example : Input  : 00000123569 
                // Output :  123569
 
-public class removzero
+class main
 {
-	public static void main(String[] args)
+	public static void main(String[]args)
 	{
-		String str = "00000123569";
+		String str="00000123569";
+		int count=0;
 		String result = "";
-		//int start = 0;
-		
-		
-		while(i < str.length() && str.charAt(i) == '0')
+		for(int i=0;i<str.length();i++)
 		{
-			start++;
+			if(str.charAt(i)=='0')
+			{
+				count++;
+			
+			}else {
+				break;
+			}
+		
 		}
-	//for(int i = 0; i < str.length(); i++)
-		//{
-				//result+=str.charAt(i);
-				result += str.charAt(i);
-		//}
-		
+		while(count < str.length()){
+			result += str.charAt(count);
+			count++;
+		}
+		//System.out.println(str.substring(count));
 		System.out.println(result);
-		
 	}
-
-
-
-
- 
- }
+}
