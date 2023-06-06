@@ -1,11 +1,10 @@
 .main{
-    border:solid 8px rgb(186, 178, 179);
-    height:550px;
+    /* border:solid 4px gray; */
+    border:solid 1px gray;
+    height:480px;
     width:700px;
-    /* display: flex; */
     margin-top: 100px;
     margin-left: 400px;
-    border-radius: 20px;
     background-color: rgb(173, 171, 169);
     
 }
@@ -13,71 +12,83 @@
     display: flex;
 }
 .bottom{
-    border:none;
-    height: 85px;
+    /* border:solid 2px black; */
+    height: 50px;
     width:696px ;
+    margin-top: -10px;
 }
 h2{
     margin-top: 10px;
-    margin-left: 80px;
+    /* margin-left: 100px; */
+    color:white;
+    text-align: center;
 }
 .leftTag{
-    /* border:solid 2px black; */
-    /* height:500px; */
+
     width:50px;
     height: 400px;
-    /* background-color: rgb(92, 188, 188);*/
+    
 } 
 .size{
-    height: 400px;
-    width: 370px;
-    border-radius: 5px;
+    height: 480px;
+    width: 350px;
 }
 .rightTag{
-
+ 
     width:350px;
-    height:400px;
+    height:380px;
     margin-left: 300px;
 }
 input{
     padding: 10px 40px 10px 40px;
     margin-top: 10px;
     margin-left: 40px;
+    border-radius: 10px;
+    border:2px solid gray;
 }
-.button{
+button{
     padding: 10px 108px 10px 108px;
     margin-top: 10px;
     margin-left: 40px;
     border-radius: 10px;
+    border:1px solid white;
+    background-color:gray;
+    color:white; 
+   
 }
-.middle{
-    border:solid 2px white;
-    border-radius: 6px;
-}
+
 h5{
-    margin-left: 280px;
-}
+    margin-left: 430px;
+    font-size: 15px;
+    margin-top: -20px;
+    color:white;
+    /* color:teal;*/
+} 
 .google{
-     height: 50px; 
-     width: 50px; 
-     margin-left: 250px;
+     height: 30px; 
+     width: 30px; 
+     margin-left: 430px;
      border-radius: 30px;
+     border:1px solid gray;
 }
 .twitter{
-    height: 50px; 
-    width: 50px; 
+    height: 30px; 
+    width: 30px; 
     margin-left: 10px;
     border-radius: 30px;
+    border:1px solid gray;
 }
 .linkdin{
-    height: 50px; 
-    width: 50px; 
+    height: 30px; 
+    width: 30px; 
     margin-left: 10px;
     border-radius: 30px;
+    border:1px solid gray;
 }
 .facebook{
-    height: 50px; 
-    width: 50px; 
+    height: 30px; 
+    width: 30px; 
     margin-left: 10px;
     border-radius: 30px;
+    border:1px solid gray;
 }
