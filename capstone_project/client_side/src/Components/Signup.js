@@ -22,7 +22,7 @@ function signup(){
                      </div>
                 </div>
                 {/* <h5>____Or Connect with____</h5> */}
-                <div className="bottom">
+                <div id="bottom">
                 <h5>____Or Connect with____</h5>
                     <img className="google" src="googleicon.webp" alt=""/>
                     <img className="twitter" src="twitter.png"alt=""/>

@@ -5,20 +5,24 @@ import './Login.css';
 function login(){
     return(
         <div>
-        <div className="main">
-            <div className="mainTag">
-                <div className="leftTag">
+        <div className="loginmain">
+            <div className="loginmainTag">
+                <div className="loginleftTag">
                 <img  className = "size"src="sign3.jpg"alt=""/>
                 </div>
-                <div className="rightTag">
+                <div className="loginrightTag">
                         <h2>Login</h2>
                        
-                        <input type="text" className="change" placeholder="Username"></input><br/>
+                        <input type="text" className="loginchange" placeholder="Username"></input><br/>
                        
                         <input type="Password" placeholder="Password"></input><br/>
-                    
-                        <button className="button">Login</button> 
                         
+                        <input className="box" type="checkbox"></input>
+                        <label className="label">Remember me</label>
+                        <button className="button">Login</button> 
+                        <p className="password">Forgot Password?</p>
+                        <p className="Account">Don't have an account please Sign up?</p>
+                       
                  </div>
             </div>
             {/* <h5>____Or Connect with____</h5> */}
