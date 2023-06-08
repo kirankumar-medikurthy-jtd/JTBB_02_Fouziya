@@ -1,34 +1,6 @@
-/* .mainTag{
-    border:solid 1px black;
-    height:480px;
-    width:700px;
-    margin-top: 100px;
-    margin-left: 400px;
-     background-color: rgb(173, 171, 169); 
-}
-.top{
-    display:flex;
-    border: 2px solid black;
-    height: 400px;
-    width: 700px;
-}
-.left{
-    border:solid 1px black;
-    height: 400px;
-    width:350px;
-}
-.right{
-    border:solid 1px black;
-    height: 400px;
-    width:350px ;
-}
-.middle{
-    border: solid 1px black;
-    height: 50px;
-    width: 400px;
-} */
-.main{
-    /* border:solid 4px gray; */
+
+.loginmain{
+    
     border:solid 1px gray;
     height:480px;
     width:700px;
@@ -37,22 +9,22 @@
     background-color: rgb(173, 171, 169);
     
 }
-.mainTag{
+.loginmainTag{
     display: flex;
 }
 .bottom{
-    /* border:solid 2px black; */
+    
     height: 50px;
     width:696px ;
-    margin-top: -10px;
+   
 }
 h2{
-    margin-top: 120px;
-    /* margin-left: 100px; */
+    margin-top: 70px;
+   
     color:white;
     text-align: center;
 }
-.leftTag{
+.loginleftTag{
 
     width:50px;
     height: 400px;
@@ -62,7 +34,7 @@ h2{
     height: 480px;
     width: 350px;
 }
-.rightTag{
+.loginrightTag{
  
     width:350px;
     height:380px;
@@ -85,16 +57,16 @@ button{
     color:white; 
    
 }
-.change{
+.loginchange{
     margin-top: 10px;
 }
 
 h5{
     margin-left: 430px;
     font-size: 15px;
-    margin-top: -20px;
+    margin-top: 10px;
     color:white;
-    /* color:teal;*/
+   
 } 
 .google{
      height: 30px; 
@@ -124,3 +96,23 @@ h5{
     border-radius: 30px;
     border:1px solid gray;
 }
+.label{
+    color:white;
+    font-size: 15px;
+ 
+}
+.box{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px; 
+}
+.password{
+    margin-left: 180px;
+    font-size: 15px;
+    color: white;
+}
+.Account{
+    font-size: 15px;
+    color: white;
+    margin-left: 40px;
+} 
