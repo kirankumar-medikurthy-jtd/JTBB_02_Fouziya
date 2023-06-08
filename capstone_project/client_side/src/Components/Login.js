@@ -8,7 +8,7 @@ function login(){
         <div className="loginmain">
             <div className="loginmainTag">
                 <div className="loginleftTag">
-                <img  className = "size"src="sign3.jpg"alt=""/>
+                <img  className = "size"src="resources/sign3.jpg"alt=""/>
                 </div>
                 <div className="loginrightTag">
                         <h2>Login</h2>
@@ -28,10 +28,10 @@ function login(){
             {/* <h5>____Or Connect with____</h5> */}
             <div className="bottom">
             <h5>____Or Connect with____</h5>
-                <img className="google" src="googleicon.webp" alt=""/>
-                <img className="twitter" src="twitter.png"alt=""/>
-                <img className="linkdin" src="linkdin.png"alt=""/>
-                <img className="facebook" src="facebook.png"alt=""/>
+                <img className="google" src="resources/googleicon.webp" alt=""/>
+                <img className="twitter" src="resources/twitter.png"alt=""/>
+                <img className="linkdin" src="resources/linkdin.png"alt=""/>
+                <img className="facebook" src="resources/facebook.png"alt=""/>
             </div>
             
         </div>

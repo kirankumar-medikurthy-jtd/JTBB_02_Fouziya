@@ -3,16 +3,16 @@
 //import Signup from './Components/Signup';
 //import Login from './Components/Login';
 
-//import Forgot from "./Forgotpassword";
-import Home from './Components/Homepage';
+import Forgot from "./Forgotpassword";
+//import Home from './Components/Homepage';
 
 function App() {
   return (
     <div className="App">
       {/* <Signup /> */}
-      {/* <Login/> */}
-      {/* <Forgot /> */}
-      <Home/>
+      {/* <Login/>  */}
+       <Forgot />  
+      {/* <Home/>  */}
     </div>
   );
 }

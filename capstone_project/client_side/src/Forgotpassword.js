@@ -6,7 +6,7 @@ function Forgot(){
         <div>
             <div className="forgotmain">
                 <div className="forgotleft"> 
-                <img className="image" src="sign3.jpg" alt=""/>
+                <img className="image" src="resources/sign3.jpg" alt=""/>
                 </div>
                 <div className="forgotright">
                     <div className="forgottop">
