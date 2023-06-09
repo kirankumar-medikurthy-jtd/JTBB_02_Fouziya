@@ -1,0 +1,61 @@
+footer
+{
+    border:1px solid gray;
+    height: 300px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex; 
+    background-color: rgb(209, 206, 206);
+}
+.About
+{
+   margin-top: 60px; 
+   margin-left: 150px; 
+   font-style: italic;
+   color: rgb(62, 59, 59);
+}
+ .connect
+{
+    margin-top: 40px; 
+    margin-left: 400px; 
+    font-style: italic;
+    color: rgb(62, 59, 59);
+    
+}
+p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.google{
+    margin-left: -40px;
+}
+.contact
+{
+    margin-top: 40px; 
+    margin-left: 400px; 
+    font-style: italic;
+    color: rgb(62, 59, 59);
+}
+.contactNumber{
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
+}
+.mobile{
+    display: flex;
+}
+
+.facebookImage
+{
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+   
+   
+}
+.equal
+{
+    display: flex;
+} 
