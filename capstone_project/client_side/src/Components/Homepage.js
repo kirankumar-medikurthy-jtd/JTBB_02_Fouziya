@@ -12,6 +12,7 @@ function Home(){
             </div>
             <div className="slide">
                 <img className="slid"src="resources/f1.png" alt=""/>
+            
             </div>
             <div className="screen">
                 <div className="homeimage">
@@ -45,34 +46,41 @@ magna aliqua. quis nostrud exercitation.</h5>
                     </div>   
             </div>
             <footer>
-                <div className="About">
+            <div className="About">
 
-                    <b>About Us</b>
-                    <div>Hello</div>
-                   
+                <b>About Us</b>
+                <p className ="google">Our aim to deliver high-quality<br/> welding products and services to<br/> meet the needs of our customers. <br/>Our experienced team of welders<br/> is dedicated to ensuring customer<br/> satisfaction and delivering<br></br> exceptional results.</p>
+               
+            </div>
+            <div className="contact">
+               
+                <b>Contact Information</b>
+                <div className="mobile">
+                <img className="contactNumber" src="resources/call.png" alt=""/>    
+                <p>Mobile no:+91-9676948462</p><br/>
+                {/* <p>Mobile no:+91-8886423553</p> */}
                 </div>
-                <div className="connect">
-                    <b>Keep Connect</b>
-                    <div className ="equal">
-                        <img  className="facebookimage"src = "resources/facebook.png" alt=""/>
-                        <h2>Let us an facebook</h2>
-                    </div>
-                    <div className="equal">    
-                        <img  className="facebookimage"src = "resources/googleicon.webp" alt=""/>
-                        <h2>Add us on google</h2>
-                    </div> 
-                    <div className="equal">    
-                        <img  className="facebookimage"src = "resources/twitter.png" alt=""/>
-                        <h2>Add us on google</h2>
-                    </div>  
-                    <div className="equal">    
-                        <img  className="facebookimage"src = "resources/linkdin.png" alt=""/>
-                        <h2>Add us on google</h2>
-                    </div>       
-                   
+                <div className="mobile">
+                <img className="contactNumber" src="resources/email2.png" alt=""/>  
+                <p>E-mail: Weldzone@gmail.com</p>
                 </div>
-                <div className="contact"><b>Contact Information</b></div>
-            </footer>
+            </div>
+
+            <div className="connect">
+                <b>Follow us on</b>
+               
+                <div className ="equal">
+                    <img  className="facebookImage"src = "resources/facebook.png" alt=""/> 
+                
+                    <img  className="facebookImage"src = "resources/googleicon.webp" alt=""/> 
+                
+                    <img  className="facebookImage"src = "resources/twitter.png" alt=""/> 
+                
+                    <img  className="facebookImage"src = "resources/linkdin.png" alt=""/>
+                </div>  
+            </div>
+            
+        </footer>
              
             
     

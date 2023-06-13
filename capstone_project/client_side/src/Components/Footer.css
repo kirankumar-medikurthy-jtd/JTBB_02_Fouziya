@@ -1,4 +1,4 @@
-footer
+/* footer
 {
     border:1px solid gray;
     height: 300px;
@@ -17,7 +17,7 @@ footer
  .connect
 {
     margin-top: 40px; 
-    margin-left: 400px; 
+    margin-left: 300px; 
     font-style: italic;
     color: rgb(62, 59, 59);
     
@@ -32,7 +32,7 @@ p{
 .contact
 {
     margin-top: 40px; 
-    margin-left: 400px; 
+    margin-left: 300px; 
     font-style: italic;
     color: rgb(62, 59, 59);
 }
@@ -58,4 +58,4 @@ p{
 .equal
 {
     display: flex;
-} 
+}  */

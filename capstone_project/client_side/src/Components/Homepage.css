@@ -12,7 +12,7 @@
     height: 70px;
     width: 70px;
     margin-top: 5px;
-    /* border: 1px solid gray; */
+    
     border-radius: 100px;
     margin-left: 5%;
 }
@@ -42,12 +42,12 @@
 }
 .slide
 {
-    /* border: solid 1px gray; */
+ 
     height: 600px;
     width: 88%;
     margin-top: 20px;
-    margin-left: 80px;
-     /* opacity: 1.0;  */
+    margin-left: 80px;       
+   
 }
 .slid
 {
@@ -57,7 +57,7 @@
 }
 .homeimage
 {
-    /* border:1px solid gray; */
+   
     height: 400px;
     width:40%;
     margin-left:80px;
@@ -71,11 +71,11 @@
 .screen
 {
     display: flex;
-    /* border:1px solid gray; */
+
 }
 .color
 {
-    /* border: 1px solid gray; */
+   
     height: 200px;
     width: 46%;
     margin-top: 140px;
@@ -95,7 +95,7 @@ h5
 .flex
 {
     display: flex;
-    /* border: 1px solid gray; */
+
     padding:10px;
     display: flex;
 }
@@ -167,7 +167,7 @@ h5
 }
 .left
 {
-    /* border:solid 1px gray; */
+
     height: 300px;
     width: 250px;
     margin-left: 75px;
@@ -188,7 +188,7 @@ h5
 }
 .footer
 {
-    /* border:solid 2px gray; */
+    
     height:300px;
     width: 100%;
     margin-top: 30px;
@@ -200,39 +200,54 @@ h6
     margin-left: 30px;
     color: rgb(69, 67, 67);
 }
-/* footer
+footer
 {
-    border:1px solid black;
+    border:1px solid gray;
     height: 300px;
     width: 100%;
     margin-top: 30px;
-    display: flex;
+    display: flex; 
+    background-color: rgb(209, 206, 206);
 }
 .About
 {
-   margin-top: 20px; 
-   margin-left: 150px;
+   margin-top: 60px; 
+   margin-left: 150px; 
    font-style: italic;
+   color: rgb(62, 59, 59);
 }
-.connect
+ .connect
 {
-    margin-top: 20px; 
-    margin-left: 400px;
+    margin-top: 40px; 
+    margin-left: 300px; 
     font-style: italic;
+    color: rgb(62, 59, 59);
+    
+}
+p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.google{
+    margin-left: -40px;
 }
 .contact
 {
-    margin-top: 20px; 
-    margin-left: 400px;
+    margin-top: 40px; 
+    margin-left: 300px; 
     font-style: italic;
+    color: rgb(62, 59, 59);
 }
-h2
-{
-    font-size: 15px;
-    margin-left: 10px;
-    margin-top: 20px;
+.contactNumber{
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
 }
-.facebookimage
+.mobile{
+    display: flex;
+}
+
+.facebookImage
 {
     border-radius: 100px;
     height: 30px;
@@ -240,8 +255,9 @@ h2
     margin-top: 15px;
     margin-right: 10px;
    
+   
 }
 .equal
 {
     display: flex;
-} */
+} 

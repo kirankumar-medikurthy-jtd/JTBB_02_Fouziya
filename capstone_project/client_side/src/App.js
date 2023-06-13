@@ -5,7 +5,8 @@
 
 //import Forgot from "./Forgotpassword";
 //import Home from './Components/Homepage';
-import Footer from "./Components/Footer";
+//import Footer from "./Components/Footer";
+import Product from "./Components/Productpage";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
        {/* <Login/>  */}
        {/* <Forgot />   */}
       {/* <Home/>  */}
-      <Footer/>
+       {/* <Footer/> */}
+       < Product /> 
     </div>
   );
 }

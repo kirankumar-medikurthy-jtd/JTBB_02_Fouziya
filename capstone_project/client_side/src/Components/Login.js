@@ -25,7 +25,7 @@ function login(){
                        
                  </div>
             </div>
-            {/* <h5>____Or Connect with____</h5> */}
+            
             <div className="bottom">
             <h5>____Or Connect with____</h5>
                 <img className="google" src="resources/googleicon.webp" alt=""/>
