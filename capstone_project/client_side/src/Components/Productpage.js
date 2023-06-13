@@ -23,18 +23,155 @@ Customer satisfaction is our top priority. Our dedicated customer support team i
 Whether you're a professional welder looking for top-of-the-line equipment or an aspiring welder eager to learn and practice, our website is here to serve your needs. Start exploring our collection, and let us be your trusted partner in all your welding endeavors.</p>
 
                 </div>
-                <div className="">
-                    <h2>Products</h2>
+                
+                    <h2>categories</h2>
                     <h2>Single gates</h2>
 
-                </div>
-                <div className="welding">
-                    <div className="">
-                        <img src = "" alt=""/>
+             
+            <div className="welding">
+                <div className="smallContainer">
+                    <div className="weld">
+                        <img className="width"  src = "resources/single5.jpg" alt=""/>
                         <p></p>
+                        <button></button>
                     </div>
+                    <div className="weld">
+                        <img className="width" src = "resources/single4.jpeg" alt=""/>
+                        <p></p>
+                        <button></button>
+                    </div>
+                    <div className="weld">
+                        <img className="width" src = "resources/single2.jpeg" alt=""/>
+                        <p></p>
+                        <button></button>
+                    </div>
+                    <div className="weld">
 
+                        <img className="width" src = "resources/single3.jpeg" alt=""/>
+                        <p></p>
+                        <button></button>
+                    </div>
+                </div> 
+                <div className="firstContainer">
+                    <div className="weld">
+                        <img className="width" src = "resources/single9.png" alt=""/>
+                        <p></p>
+                        <button></button>
+                    </div>
+                    <div className="weld">
+                        <img className="width" src = "resources/single10.png" alt=""/>
+                        <p></p>
+                        <button></button>
+                    </div>
+                    <div className="weld">
+                        <img className="width" src = "resources/single7.jpeg" alt=""/>
+                        <p></p>
+                        <button></button>
+                    </div>
+                    <div className="weld">
+                        <img className="width" src = "resources/single8.jpg" alt=""/>
+                        <p></p>
+                        <button></button>
+                    </div>
                 </div>
+                
+            </div>
+                    <h2>Double gates</h2>
+                    <div className="bigContainer">
+                        <div className="smallContainer">
+                            <div className="weld">
+                                <img className="width" src = "resources/double1.png" alt=""/>
+                                <p></p>
+                                <button></button>
+                            </div>
+                            <div className="weld">
+                                <img className="width" src = "resources/double2.jpeg" alt=""/>
+                                <p></p>
+                                <button></button>
+                            </div>
+                            <div className="weld">
+                                <img className="width" src = "resources/double.jpeg" alt=""/>
+                                <p></p>
+                                <button></button>
+                            </div>
+                            <div className="weld">
+                                <img className="width" src = "resources/double4.jpeg" alt=""/>
+                                <p></p>
+                                <button></button>
+                            </div>
+                        
+                        </div>
+                        <div className="smallestContainer">
+                                <div className="weld">
+                                    <img className="width" src = "resources/double5.jpeg" alt=""/>
+                                    <p></p>
+                                    <button></button>
+                                </div>
+                                <div className="weld">
+                                    <img className="width" src = "resources/double6.jpeg" alt=""/>
+                                    <p></p>
+                                    <button></button>
+                                </div>
+                                <div className="weld">
+                                    <img className="width" src = "resources/double7.jpeg" alt=""/>
+                                    <p></p>
+                                    <button></button>
+                                </div>
+                                <div className="weld">
+                                    <img className="width" src = "resources/double8.jpeg" alt=""/>
+                                    <p></p>
+                                    <button></button>
+                                </div>
+                        </div>
+                    </div>
+                <h2>Roller gates</h2>
+                <div className="bigContainer">
+                        <div className="smallContainer">
+                            <div className="weld">
+                                <img className="width" src = "resources/Rgate1.png" alt=""/>
+                                <p></p>
+                                <button></button>
+                            </div>
+                            <div className="weld">
+                                <img className="width" src = "resources/Rgate2.jpg" alt=""/>
+                                <p></p>
+                                <button></button>
+                            </div>
+                            <div className="weld">
+                                <img className="width" src = "resources/Rgate3.webp" alt=""/>
+                                <p></p>
+                                <button></button>
+                            </div>
+                            <div className="weld">
+                                <img className="width" src = "resources/Rgate4.jpg" alt=""/>
+                                <p></p>
+                                <button></button>
+                            </div>
+                        
+                        </div>
+                        <div className="smallestContainer">
+                                <div className="weld">
+                                    <img className="width" src = "resources/Rgate5.jpg" alt=""/>
+                                    <p></p>
+                                    <button></button>
+                                </div>
+                                <div className="weld">
+                                    <img className="width" src = "resources/double3.jpeg" alt=""/>
+                                    <p></p>
+                                    <button></button>
+                                </div>
+                                <div className="weld">
+                                    <img className="width" src = "resources/Rgate8.jpeg" alt=""/>
+                                    <p></p>
+                                    <button></button>
+                                </div>
+                                <div className="weld">
+                                    <img className="width" src = "resources/roller.jpg" alt=""/>
+                                    <p></p>
+                                    <button></button>
+                                </div>
+                        </div>
+                    </div> 
             </div>
     )
 }

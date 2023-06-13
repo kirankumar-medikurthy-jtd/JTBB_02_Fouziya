@@ -4,7 +4,7 @@
 //import Login from './Components/Login';
 
 //import Forgot from "./Forgotpassword";
-//import Home from './Components/Homepage';
+import Home from './Components/Homepage';
 //import Footer from "./Components/Footer";
 import Product from "./Components/Productpage";
 

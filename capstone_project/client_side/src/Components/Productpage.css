@@ -55,7 +55,46 @@ h2{
 }
 .welding{
     border:solid 1px black;
+    height: 900px;
+    width: 88%;
+    margin-left: 77px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+.firstContainer{
+    border: 1px solid pink;
+    height: 440px;
+    margin-top: 20px;
+    display: flex;
+}
+.weld{
+    border: 1px solid blue;
     height: 400px;
-    width: 80%;
-    margin-left: 90px;
+    width: 292px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.width{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.bigContainer{
+    border:1px solid red;
+    height: 900px;
+    width: 88%;
+    margin-left: 75px;
+}
+.smallContainer{
+    border: 1px solid black;
+    height: 440px;
+    display: flex;
+  
+}
+.smallestContainer{
+    border: 1px solid black;
+    height: 440px;
+    margin-top: 20px;
+    display: flex;
 }

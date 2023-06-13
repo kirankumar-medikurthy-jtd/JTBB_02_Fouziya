@@ -11,12 +11,12 @@ function Home(){
                 <div className="Signup">Signup</div>
             </div>
             <div className="slide">
-                <img className="slid"src="resources/f1.png" alt=""/>
+                <img className="slid"src="resources/f4.jpeg" alt=""/>
             
             </div>
             <div className="screen">
                 <div className="homeimage">
-                <img  className="home"src="resources/homeimage.jpeg" alt=""/>
+                <img  className="home"src="resources/f1.png" alt=""/>
                 </div>
                 <div className="color">
                     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit 
